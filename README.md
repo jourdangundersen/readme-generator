@@ -1,5 +1,7 @@
 # readme-generator
 
+_this readme was created using this program_
+
 ## table-of-contents
 
 - [description](#description)
@@ -26,6 +28,13 @@ a prospective user will need to:
 ### usage
 
 to run this program type "node index.js" in the integrated terminal
+
+#
+
+![](./assets/readme-generator-screenshot.png)
+![](./assets/readme-generator-screenshot2.png)
+
+#
 
 ## contribute
 
