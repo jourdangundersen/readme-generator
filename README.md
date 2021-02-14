@@ -1,7 +1,5 @@
 # readme-generator
 
-![License Badge](https://img.shields.io/badge/license-Shield-green)
-
 ## table-of-contents
 
 - [description](#description)
@@ -46,7 +44,3 @@ you may also contact me via email at jourdancgundersen@gmail.com
 github repo: https://github.com/jourdangundersen/readme-generator
 
 deployed link: [readme-generator](https://drive.google.com/file/d/13yrjpwkZd5lF-ijqZak8kHZv58uIoHCs/view)
-
-#### license
-
-    this project is licensed for use by Shield.

@@ -1,3 +1,4 @@
+// funciton to get the badge for the user's license
 function renderLicenseBadge(license) {
 
   if (license != 'none') {
@@ -22,6 +23,7 @@ function renderLicenseLink(license) {
 
 }
 
+// function to put text at the bottom of the readme displaying the user's license for the project
 function renderLicenseSection(license) {
 
 
@@ -36,6 +38,7 @@ function renderLicenseSection(license) {
   }
 }
 
+// function to generate the readme from the data
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -84,4 +87,5 @@ ${renderLicenseSection(data.license)}
 `;
 }
 
+// exporting the module so it can be used in the index.js file
 module.exports = generateMarkdown;

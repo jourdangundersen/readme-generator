@@ -1,9 +1,9 @@
-
+// creating const variables
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const path = require('path');
-
+// array of questions to be asked to the user
 const questions = [
     'what is your name?',
     'what is your Github username?',
@@ -19,7 +19,7 @@ const questions = [
     'please enter the link to your deployed app or website, if applicable.'
 ];
 
-
+// array of licenses available to the user to pick
 const licenseArray = [
     'Shield',
     'MIT',
@@ -31,10 +31,10 @@ const licenseArray = [
     'none'
 ];
 
-
+// variable initialized so it can hold the data collected from the user
 var fileContent;
 
-
+// prompts to receive user input
 inquirer
     .prompt([
         {
@@ -100,20 +100,20 @@ inquirer
             message: questions[11],
         },
     ])
-
+    // function to write the readme file
     .then((data) => {
         fileContent = generateMarkdown(data);
         writeToFile('README.md', fileContent)
     });
 
-
+// function to output that the readme has been generated of running the program was successful
 function writeToFile(fileName, data) {
     return fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('readme generated'));
 
 }
 
-
+// initializing functions
 function init() { }
 
 
