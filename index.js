@@ -5,18 +5,18 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const path = require('path');
 
 const questions = [
-    'What is your name?',
-    'What is your Github username?',
-    'What is your email address?',
-    'What is the name of your project?',
-    'Please provide a short description of your project:',
-    'What kind of license does your project have?',
-    'Please provide a link to your project repo:',
-    'Please enter any installation instructions:',
-    'Please enter any usage information:',
-    'Please enter any contributing information:',
-    'Please enter any testing instructions:',
-    'Please enter the link to your deployed app or website, if applicable.'
+    'what is your name?',
+    'what is your Github username?',
+    'what is your email address?',
+    'what is the name of your project?',
+    'please provide a short description of your project:',
+    'what kind of license does your project have?',
+    'please provide a link to your project repo:',
+    'please enter any installation instructions:',
+    'please enter any usage information:',
+    'please enter any contributing information:',
+    'please enter any testing instructions:',
+    'please enter the link to your deployed app or website, if applicable.'
 ];
 
 
@@ -109,7 +109,7 @@ inquirer
 
 function writeToFile(fileName, data) {
     return fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('README Generated!'));
+        err ? console.log(err) : console.log('readme generated'));
 
 }
 
