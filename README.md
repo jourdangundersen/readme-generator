@@ -1,44 +1,52 @@
 # readme-generator
 
+![License Badge](https://img.shields.io/badge/license-Shield-green)
 
 ## table-of-contents
 
-* [description](#description)
-* [installaion](#installation)
-* [usage](#usage)
-* [contribute](#contribute)
-* [testing](#testing)
-* [questions](#questions)
-
+- [description](#description)
+- [installaion](#installation)
+- [usage](#usage)
+- [contribute](#contribute)
+- [testing](#testing)
+- [questions](#questions)
+- [license](#license)
 
 ## description
 
-this project is designed to create a readme by plugging user input into a template.  it has been made in order to provide an efficient way for users to create readme files for projects.
+this program was created to be an efficient readme generator that receives data from the user in order to create a readme file for projects from a template. it is designed to provide a high quality and easy to read file for the user to display as their project's readme.
 
 ## installation
 
-to install this program the user will need to do a git clone and then run "npm install inquirer" in the integrated terminal.  afterwards, the user will need to run "node index.js" in the integrated terminal in order to run the program.
+a prospective user will need to:
+
+- do a git clone
+- open index.js in the integrated terminal - right click on index.js in the menu and click run in integrated terminal
+- run "npm init"
+- run "npm i"
 
 ### usage
 
-N/A
+to run this program type "node index.js" in the integrated terminal
 
 ## contribute
 
-N/A
+contributions, comments, and constructive criticism is welcome. there were no contrubitors besides the creator.
 
 ### testing
 
-this program was tested by the creator
+this program was tested by the creator, Jourdan Gundersen
 
 ### questions
 
-for additional questions, please contact Jourdan Gundersen on github at the following link: [jourdangundersen](https://github.com/jourdangundersen).
+for additional questions, please contact jourdan gundersen on github at the following link: [jourdangundersen](https://github.com/jourdangundersen).
 
 you may also contact me via email at jourdancgundersen@gmail.com
 
 github repo: https://github.com/jourdangundersen/readme-generator
 
-deployed link: [readme-generator](N/A)
+deployed link: [readme-generator](https://drive.google.com/file/d/13yrjpwkZd5lF-ijqZak8kHZv58uIoHCs/view)
 
+#### license
 
+    this project is licensed for use by Shield.
